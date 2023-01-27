@@ -17,7 +17,6 @@ type ChatGptConfig struct {
 	Token         string  `json:"token,omitempty" json:"token,omitempty"`
 	Wechat        *string `json:"wechat,omitempty"`
 	WechatKeyword *string `json:"wechat_keyword"`
-	Telegram      *string `json:"telegram"`
 	TgWhitelist   *string `json:"tg_whitelist"`
 	TgKeyword     *string `json:"tg_keyword"`
 }
